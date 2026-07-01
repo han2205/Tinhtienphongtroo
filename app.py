@@ -2,7 +2,8 @@ import streamlit as st
 
 st.set_page_config(page_title="Tính Tiền Phòng Trọ", page_icon="🏠")
 
-Đặt ảnh hiển thị ở trên cùng của trang st.image("logo.jpg", use_container_width=True)
+st.image("logo.jpg", use_container_width=True)
+
 st.title("🏠 Tính tiền phòng trọ - Nhóm 2")
 
 # Nhập tiền phòng
