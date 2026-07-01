@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Tính Tiền Phòng Trọ", page_icon="🏠")
 
-st.title("🏠 Ứng dụng tính tiền phòng trọ - Nhóm 2")
+st.title("🏠 Tính tiền phòng trọ - Nhóm 2")
 
 # Nhập tiền phòng
 A = st.number_input("Nhập số tiền phòng (đồng)", min_value=0.0, value=2000000.0)
