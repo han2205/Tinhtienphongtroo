@@ -4,7 +4,7 @@ st.set_page_config(page_title="Tính Tiền Phòng Trọ", page_icon="🏠")
 
 st.image("logo.jpg", use_container_width=True)
 
-st.title("🏠 Tính tiền phòng trọ - ĐỀ TÀI 1 ĐẶNG THỊ NGỌC HÂN 23030122; LÝ GIA HÂN 23030244; NGUYỄN NGỌC NHI 23030026; ĐỒNG THỊ LAN ANH 23030112; LÊ THỊ THANH TRÚC 23030125; ĐÀO THỊ NGỌC ÁNH 23030104")
+st.title("🏠 TÍNH TIỀN PHÒNG TRỌ HÀNG THÁNG - ĐỀ TÀI 1 - ĐẶNG THỊ NGỌC HÂN 23030122; LÝ GIA HÂN 23030244; NGUYỄN NGỌC NHI 23030026; ĐỒNG THỊ LAN ANH 23030112; LÊ THỊ THANH TRÚC 23030125; ĐÀO THỊ NGỌC ÁNH 23030104")
 
 # Nhập tiền phòng
 A = st.number_input("Nhập số tiền phòng (đồng)", min_value=0.0, value=2000000.0)
